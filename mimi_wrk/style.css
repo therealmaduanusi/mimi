@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 90%;
+    margin: 10px auto;
+    padding: 1px 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px #c6c6c6;
+}
+.wrapper-addrs{
+    width: 80%;
+    margin: 30px auto;
+}
+.logo{
+    background-color: rgb(241, 146, 162);
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.addrses,
+.resource,
+.logo-addrs,
+.snt_lter,
+.pdf{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-addrs,
+.addrses{
+    margin: 30px 0;
+}
+.resources{
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 3px 10px 4px rgb(193, 193, 193);
+    border-radius: 10px;
+}
+.resource{
+    border: solid 1px #a7a6a6;
+    padding: 20px;
+}
+.bill{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.amount{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main > p{
+    width: 80%;
+    margin: auto;
+}
+.note{
+    margin-top: 20px;
+}
+.snt_lter{
+    width: 80%;
+    margin: 20px auto;
+}
+.pdf{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+img{
+    width: 1.3em;
+    margin-right: 10px;
+}
